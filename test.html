@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title id="title"></title>
+    <link rel='stylesheet' href='style.css'>
+    
+</head>
+
+<body>
+    <button id="clearLocalStorageBtn" type="clearABtn">ล้างข้อมูล</button>
+    <div class="container" id="C1">
+        <div class="transbox">
+            <!-- ส่วนของรายรับ -->
+            <h2>รายรับ</h2>
+            <button id="startIncomeCategoryBtn" type="Btn">รายการ</button>
+            <button id="startIncomePriceBtn" type="Btn">ราคา</button>
+            <button id="startIncomeSaveBtn" type="Btn">บันทึก</button>
+            <div id="outputIncomeList"></div>
+
+            <!-- ส่วนของรายจ่าย -->
+            <h2>รายจ่าย</h2>
+            <button id="startExpenseCategoryBtn" type="BtnR">รายการ</button>
+            <button id="startExpensePriceBtn" type="BtnR">ราคา</button>
+            <button id="startExpenseSaveBtn" type="BtnR">บันทึก</button>
+            <div id="outputExpenseList"></div>
+        </div>
+    </div>
+
+    <div class="container" id="C2">
+        <div class="transbox">
+            <!-- ส่วนของรายรับ-รายจ่าย -->
+            <h2>รายรับ-รายจ่าย</h2>
+            <div id="outputTransactionList"></div>
+
+            <!-- ส่วนของค่าใช้จ่ายรวมทั้งเดือน -->
+            <h2>ค่าใช้จ่ายรวมทั้งเดือน</h2>
+            <div id="result" type="re"></div>
+
+            <script src='index.js'></script>
+        </div>   
+    </div>
+</body>
+
+</html>
